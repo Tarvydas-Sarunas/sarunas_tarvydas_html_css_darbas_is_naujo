@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-  background-color: #908c8c;
 }
 
 h1,
@@ -21,8 +20,8 @@ a {
 }
 
 .container {
-  width: 428px;
-  padding-left: 15px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 img {
