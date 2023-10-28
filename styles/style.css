@@ -1,0 +1,88 @@
+html {
+  --Pink: #ff3998;
+  --Orange: #ff8139;
+  --Dark-1: #111;
+  --Dark-2: #555;
+  --Dark-3: #777;
+  --Dark-4: #999;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* ====Bendri====== */
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--Dark-1);
+  border: none;
+  border-radius: 35px;
+  padding: 25px 56px 27px;
+  background: url(/img/Group\ 1.svg);
+}
+
+/* =============Header=================== */
+header {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: white;
+}
+
+.nav_container {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: none;
+}
+
+.nav {
+  position: relative;
+}
+.nav > .fa {
+  font-size: 24px;
+  width: 22px;
+  color: var(--Dark-4);
+}
+
+.menu {
+  position: absolute;
+  right: 1px;
+  top: calc(100% + 10px);
+}
+.menu li {
+  color: var(--Dark-2);
+  font-size: 20px;
+  font-weight: 400;
+  padding: 3px 0;
+}
+
+.has-children:hover ~ .menu {
+  display: block;
+  background-color: white;
+  padding: 10px;
+  width: 120px;
+}
+
+/* ========Hero====================== */
+
+.header {
+}
+
+/* =========Medias============================ */
+
+@media screen and (min-width: 700px) {
+  .menu {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    position: relative;
+  }
+  .has-children {
+    display: none;
+  }
+}
