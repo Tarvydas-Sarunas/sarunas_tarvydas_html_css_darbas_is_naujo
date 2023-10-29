@@ -164,18 +164,62 @@ header {
   text-decoration-line: underline;
 }
 /* --showcard--- */
+.showcase_cards_container {
+  width: 600px;
+  margin-top: 32px;
+  display: flex;
+  gap: 40px;
+  overflow: scroll;
+}
 
+.showcase_card {
+  width: 290px;
+}
+.show-card-img {
+  display: block;
+}
 .show_card_text_container {
+  width: 290px;
   display: flex;
   gap: 20px;
   background-color: var(--Light-2);
+  padding: 24px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
+
 .price_container {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 .card_text_left {
   text-align: right;
+}
+.card_series {
+  color: var(--Orange);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.card_name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  padding: 12px 0;
+}
+.card_nr {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--Dark-3);
+}
+.card_bids {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: var(--Dark-3);
 }
 
 /* =========Medias============================ */
