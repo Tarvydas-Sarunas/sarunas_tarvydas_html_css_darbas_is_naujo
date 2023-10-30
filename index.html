@@ -19,6 +19,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- font icons bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <!-- font Icons -->
 
   <title>HTML CSS DARBAS</title>
@@ -30,197 +33,203 @@
 
 
 <body>
-
-  <!-- ==Header================ -->
-  <header>
-    <div class="nav_container">
-      <a class="header header--logo" href="#"> <img src="/img/img/assets/logo.svg" alt="logo nft landing"></a>
-      <nav class="nav">
-        <i class="fa has-children fa-bars" aria-hidden="true"></i>
-        <ul class="menu unlisted">
-          <li><a href="#">Features</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Launch</a></li>
-          <li><a href="#">Sign Up</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-
-  <!-- ====Hero =============================== -->
-
-  <section class="hero">
-    <div class="hero_text_container">
-      <p class="hero_announcement_text">LAUNCHING SOON</p>
-      <h2 class="hero_title">An NFT like no other</h2>
-      <p class="hero-texte">Don’t miss out on the release of our new NFT. Sign up below to receive updates when we go
-        live.</p>
-      <button class="btn">Sign Up</button>
-    </div>
-    <img class="hero_img" src="/img/img/assets/graphic.png"
-      alt="nft disign a pink anthropomorphic sculpture, similar to snowman with one large eye in each circle">
-  </section>
-
-  <!-- ====Upsell============ -->
-
-  <section class="upsell">
-    <div class="container">
-      <h3 class="section_title">Free NFT for early birds</h3>
-      <p class="upsell_texte">Sign up today and you’ll get a free NFT when we launch.</p>
-    </div>
-  </section>
-
-  <!-- ===Press============ -->
-
-  <div class="press" aria-label="part with 4 logo">
-    <div class="container press_logo_container">
-      <!-- one logo -->
-      <div class="press_logo_item">
-        <img src="/img/img/Vector.svg" alt="boom logo">
-        <p class="logo_title">Boom</p>
+  <div class="max-container">
+    <!-- ==Header================ -->
+    <header>
+      <div class="nav_container">
+        <a class="header header--logo" href="#"> <img src="/img/img/assets/logo.svg" alt="logo nft landing"></a>
+        <nav class="nav">
+          <i class="bi has-children bi-list"></i>
+          <!-- <i class="fa has-children fa-bars" aria-hidden="true"></i> -->
+          <ul class="menu unlisted">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Launch</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </nav>
       </div>
-      <!-- one logo -->
+    </header>
 
-      <!-- one logo 2 -->
-      <div class="press_logo_item">
-        <img src="/img/img/assets/companies/2.svg" alt="blimp logo">
+
+    <!-- ====Hero =============================== -->
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero_text_container">
+          <p class="hero_announcement_text">LAUNCHING SOON</p>
+          <h2 class="hero_title">An NFT like no other</h2>
+          <p class="hero-texte">Don’t miss out on the release of our new NFT. Sign up below to receive updates when we
+            go
+            live.</p>
+          <button class="btn">Sign Up</button>
+        </div>
+        <img class="hero_img" src="/img/img/assets/graphic.png"
+          alt="nft disign a pink anthropomorphic sculpture, similar to snowman with one large eye in each circle">
       </div>
-      <!-- one logo -->
+    </section>
 
-      <!-- one logo 3-->
-      <div class="press_logo_item">
-        <img src="/img/img/assets/companies/3.svg" alt="qrcm logo">
+    <!-- ====Upsell============ -->
+
+    <section class="upsell">
+      <div class="container">
+        <h3 class="section_title">Free NFT for early birds</h3>
+        <p class="upsell_texte">Sign up today and you’ll get a free NFT when we launch.</p>
       </div>
-      <!-- one logo -->
+    </section>
 
-      <!-- one logo 4-->
-      <div class="press_logo_item">
-        <img src="/img/img/assets/companies/5.svg" alt="droplet logo">
+    <!-- ===Press============ -->
 
+    <div class="press" aria-label="part with 4 logo">
+      <div class="container">
+        <div class="press_logo_container">
+          <!-- one logo -->
+          <div class="press_logo_item">
+            <img class="disp900" src="/img/img/assets/companies/1.svg" alt="boomerang logo">
+            <img class="none900" src="/img/img/Vector.svg" alt="boomerang logo">
+            <p class="logo_title none900">Boom</p>
+          </div>
+          <!-- one logo -->
+
+          <!-- one logo 2 -->
+          <img src="/img/img/assets/companies/2.svg" alt="blimp logo">
+          <!-- one logo -->
+
+          <!-- one logo 3-->
+          <img src="/img/img/assets/companies/3.svg" alt="qrcm logo">
+          <!-- one logo -->
+
+          <!-- one logo 4-->
+          <img class="disp1440" src="/img/img/assets/companies/4.svg" alt="open door logo">
+          <!-- one logo -->
+
+          <!-- one logo 5-->
+          <img src="/img/img/assets/companies/5.svg" alt="droplet logo">
+          <!-- one logo -->
+        </div>
       </div>
-      <!-- one logo -->
     </div>
+    <!-- ===shovecase -->
+
+    <section class="showcase">
+      <div class="container">
+        <h3 class="section_title show-titl">LE Super Rare Auction</h3>
+        <p class="showcase_text">We have released four limited edition NFTs early which can be bid on via <a
+            href="#">OpenSea.</a></p>
+      </div>
+      <div class="container2">
+        <div class="showcase_cards_container">
+          <!-- one card -->
+          <div class="showcase_card">
+            <img class="show-card-img" src="/img/img/assets/ntfs/ntf-1.svg" alt="ntf card purple man">
+
+            <div class="show_card_text_container">
+
+              <div class="card_text_right">
+                <p class="card_series">Gloop Series</p>
+                <p class="card_name">Purple Man</p>
+                <p class="card_nr">#12983</p>
+              </div>
+
+              <div class="card_text_left">
+                <p class="card_bids">Top bid</p>
+
+                <div class="price_container">
+                  <img class="card_ethlogo" src="/img/img/assets/eth.svg" alt="ethereum logo squid game">
+                  <p class="card_name"> 2.99 ETH</p>
+                </div>
+
+                <p class="card_nr">1 day left</p>
+              </div>
+            </div>
+          </div>
+          <!-- one card -->
+
+          <!-- one card 2 -->
+          <div class="showcase_card">
+            <img class="show-card-img" src="/img/img/assets/ntfs/nft-2.svg" alt="ntf card Beige woman">
+
+            <div class="show_card_text_container">
+
+              <div class="card_text_right">
+                <p class="card_series">Gloop series</p>
+                <p class="card_name">Beige</p>
+                <p class="card_nr">#12983</p>
+              </div>
+
+              <div class="card_text_left">
+                <p class="card_bids">Top bid</p>
+
+                <div class="price_container">
+                  <img class="card_ethlogo" src="/img/img/assets/eth.svg" alt="ethereum logo">
+                  <p class="card_name"> 2.99 ETH</p>
+                </div>
+
+                <p class="card_nr">1 day left</p>
+              </div>
+            </div>
+          </div>
+          <!-- one card 2 -->
+
+          <!-- one card 3 -->
+          <div class="showcase_card">
+            <img class="show-card-img" src="/img/img/assets/ntfs/ntf-3.svg" alt="ntf card Red man squid game">
+
+            <div class="show_card_text_container">
+
+              <div class="card_text_right">
+                <p class="card_series">Gloop Series</p>
+                <p class="card_name">Red Man</p>
+                <p class="card_nr">#12983</p>
+              </div>
+
+              <div class="card_text_left">
+                <p class="card_bids">Top bid</p>
+
+                <div class="price_container">
+                  <img class="card_ethlogo" src="/img/img/assets/eth.svg" alt="ethereum logo">
+                  <p class="card_name"> 2.99 ETH</p>
+                </div>
+
+                <p class="card_nr">1 day left</p>
+              </div>
+            </div>
+          </div>
+          <!-- one card 3 -->
+
+          <!-- one card 4 -->
+          <div class="showcase_card">
+            <img class="show-card-img" src="/img/img/assets/ntfs/ntf-4.svg" alt="ntf card green woman squid game">
+
+            <div class="show_card_text_container">
+
+              <div class="card_text_right">
+                <p class="card_series">Gloop Series</p>
+                <p class="card_name">Green</p>
+                <p class="card_nr">#12983</p>
+              </div>
+
+              <div class="card_text_left">
+                <p class="card_bids">Top bid</p>
+
+                <div class="price_container">
+                  <img class="card_ethlogo" src="/img/img/assets/eth.svg" alt="ethereum logo">
+                  <p class="card_name"> 2.99 ETH</p>
+                </div>
+
+                <p class="card_nr">1 day left</p>
+              </div>
+            </div>
+          </div>
+          <!-- one card 4 -->
+        </div>
+      </div>
   </div>
-  <!-- ===shovecase -->
-
-  <section class="showcase">
-    <div class="container">
-      <h3 class="section_title show-titl">LE Super Rare Auction</h3>
-      <p class="showcase_text">We have released four limited edition NFTs early which can be bid on via <a
-          href="#">OpenSea.</a></p>
-
-      <div class="showcase_cards_container">
-        <!-- one card -->
-        <div class="showcase_card">
-          <img class="show-card-img" src="/img/img/assets/ntfs/ntf-1.svg" alt="ntf card purple man">
-
-          <div class="show_card_text_container">
-
-            <div class="card_text_right">
-              <p class="card_series">Gloop Series</p>
-              <p class="card_name">Purple Man</p>
-              <p class="card_nr">#12983</p>
-            </div>
-
-            <div class="card_text_left">
-              <p class="card_bids">Top bid</p>
-
-              <div class="price_container">
-                <img class="card_ethlogo" src="/img/img/assets/eth.svg" alt="ethereum logo squid game">
-                <p class="card_name"> 2.99 ETH</p>
-              </div>
-
-              <p class="card_nr">1 day left</p>
-            </div>
-          </div>
-        </div>
-        <!-- one card -->
-
-        <!-- one card 2 -->
-        <div class="showcase_card">
-          <img class="show-card-img" src="/img/img/assets/ntfs/nft-2.svg" alt="ntf card Beige woman">
-
-          <div class="show_card_text_container">
-
-            <div class="card_text_right">
-              <p class="card_series">Gloop series</p>
-              <p class="card_name">Beige</p>
-              <p class="card_nr">#12983</p>
-            </div>
-
-            <div class="card_text_left">
-              <p class="card_bids">Top bid</p>
-
-              <div class="price_container">
-                <img class="card_ethlogo" src="/img/img/assets/eth.svg" alt="ethereum logo">
-                <p class="card_name"> 2.99 ETH</p>
-              </div>
-
-              <p class="card_nr">1 day left</p>
-            </div>
-          </div>
-        </div>
-        <!-- one card 2 -->
-
-        <!-- one card 3 -->
-        <div class="showcase_card">
-          <img class="show-card-img" src="/img/img/assets/ntfs/ntf-3.svg" alt="ntf card Red man squid game">
-
-          <div class="show_card_text_container">
-
-            <div class="card_text_right">
-              <p class="card_series">Gloop Series</p>
-              <p class="card_name">Red Man</p>
-              <p class="card_nr">#12983</p>
-            </div>
-
-            <div class="card_text_left">
-              <p class="card_bids">Top bid</p>
-
-              <div class="price_container">
-                <img class="card_ethlogo" src="/img/img/assets/eth.svg" alt="ethereum logo">
-                <p class="card_name"> 2.99 ETH</p>
-              </div>
-
-              <p class="card_nr">1 day left</p>
-            </div>
-          </div>
-        </div>
-        <!-- one card 3 -->
-
-        <!-- one card 4 -->
-        <div class="showcase_card">
-          <img class="show-card-img" src="/img/img/assets/ntfs/ntf-4.svg" alt="ntf card green woman squid game">
-
-          <div class="show_card_text_container">
-
-            <div class="card_text_right">
-              <p class="card_series">Gloop Series</p>
-              <p class="card_name">Green</p>
-              <p class="card_nr">#12983</p>
-            </div>
-
-            <div class="card_text_left">
-              <p class="card_bids">Top bid</p>
-
-              <div class="price_container">
-                <img class="card_ethlogo" src="/img/img/assets/eth.svg" alt="ethereum logo">
-                <p class="card_name"> 2.99 ETH</p>
-              </div>
-
-              <p class="card_nr">1 day left</p>
-            </div>
-          </div>
-        </div>
-        <!-- one card 4 -->
-      </div>
-    </div>
   </section>
 
   <!-- ========Footer UPSELL=============== -->
 
-  <section class="footer_upsell">
+  <section class="footer_upsell container2">
     <div class="container">
       <div class="footer_upsell_text_container">
         <p class="hero_announcement_text">LAUNCHING SOON</p>
@@ -240,7 +249,11 @@
       <div class="footer_title_area">
         <img src="/img/img/assets/logo.svg" alt="ntf landing logo">
         <p class="footer_subtitle">Exclusive NFT Collection</p>
-        <img src="/img/social.svg" alt="icons of facebook tweeter instragram and tik tok">
+        <a href="#"><i class="bi foot_icon bi-facebook"></i></a>
+        <a href="#"><i class="bi foot_icon bi-twitter"></i></a>
+        <a href="#"><i class="bi foot_icon bi-instagram"></i></a>
+        <a href="#"><i class="bi foot_icon bi-tiktok"></i></a>
+
       </div>
 
       <div class="footer_links_container">
@@ -293,7 +306,7 @@
 
 
 
-
+  </div>
 </body>
 
 </html>
