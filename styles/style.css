@@ -29,8 +29,14 @@ header {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   background-color: white;
+  position: fixed;
+  top: 0;
+  width: 428px;
+  z-index: 10;
 }
-
+.header--logo {
+  position: relative;
+}
 .nav_container {
   padding: 32px;
   display: flex;
@@ -42,9 +48,9 @@ header {
   display: none;
 }
 
-.nav {
+/* .nav {
   position: relative;
-}
+} */
 .nav > .fa {
   font-size: 24px;
   width: 22px;
@@ -53,8 +59,8 @@ header {
 
 .menu {
   position: absolute;
-  right: 1px;
-  top: calc(100% + 10px);
+  right: 10px;
+  top: calc(100% - 40px);
   z-index: 1;
 }
 .menu li {
@@ -74,16 +80,21 @@ header {
 /* ========Hero====================== */
 
 .hero {
-  margin-top: 32px;
   position: relative;
+  width: 428px;
+  margin-top: 112px;
+  overflow: hidden;
+  display: flex;
 }
 .hero_img {
   position: absolute;
-  top: calc(100% - 509px);
+  top: calc(100% - 570px);
   left: 205px;
 }
 .hero_text_container {
-  width: 274px;
+  width: 305px;
+  padding-top: 48px;
+  padding-left: 32px;
 }
 .hero_announcement_text {
   color: var(--Pink);
@@ -114,6 +125,9 @@ header {
   background-size: cover;
   background-position: 80% center;
 }
+.upsell .container {
+  width: 430px;
+}
 .section_title {
   font-size: 40px;
   font-weight: 500;
@@ -137,6 +151,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 25px 75px;
+  width: 430px;
 }
 .press_logo_item {
   display: flex;
@@ -152,6 +167,7 @@ header {
 /* ===Shovecase====== */
 .showcase {
   padding-bottom: 92px;
+  /* overflow: hidden; */
 }
 .show-titl {
   padding-top: 0;
@@ -168,7 +184,7 @@ header {
 }
 /* --showcard--- */
 .showcase_cards_container {
-  width: 600px;
+  width: 428px;
   margin-top: 40px;
   display: flex;
   gap: 40px;
@@ -232,6 +248,7 @@ header {
   position: relative;
   border-top: 2px solid var(--Light-2);
   border-bottom: 2px solid var(--Light-2);
+  /* overflow: hidden; */
 }
 .footer_upsell::after {
   content: "";
@@ -320,14 +337,21 @@ footer {
 
 /* =========Medias============================ */
 
-@media screen and (min-width: 700px) {
-  .menu {
+@media screen and (min-width: 600px) {
+  header {
+    width: 500px;
+  }
+  /* .menu {
     display: flex;
-    gap: 28px;
+    gap: 15px;
     align-items: center;
     position: relative;
   }
   .has-children {
     display: none;
+  } */
+  .hero {
+    width: 500px;
+    overflow: hidden;
   }
 }
