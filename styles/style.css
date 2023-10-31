@@ -65,6 +65,12 @@ header {
   font-weight: 400;
   padding: 3px 0;
 }
+.menu li:hover {
+  color: var(--Pink);
+}
+.btn:hover {
+  color: var(--Pink);
+}
 
 .has-children:hover ~ .menu {
   display: block;
