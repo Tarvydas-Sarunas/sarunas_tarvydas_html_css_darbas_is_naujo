@@ -582,8 +582,7 @@ footer {
   }
   .press_logo_container {
     grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-    width: 1100px;
+    gap: 50px;
   }
   .disp1440 {
     display: block;
@@ -628,22 +627,12 @@ footer {
     margin-bottom: 0;
   }
   /* footer */
-  .footer_links_container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
   footer {
     margin-top: 120px;
   }
-  footer .container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .bdrs_bot {
+  .footer_container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
   }
   .footer_links_title {
     padding-top: 0;
@@ -655,7 +644,6 @@ footer {
   .copyright_container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     margin-top: 123px;
     margin-left: 0;
     margin-right: 0;
@@ -667,7 +655,7 @@ footer {
 }
 
 /* =================1400========================================= */
-@media screen and (min-width: 1438px) {
+@media screen and (min-width: 1430px) {
   .nav_container {
     max-width: 1440px;
   }
@@ -678,8 +666,6 @@ footer {
   }
   /* press */
   .press_logo_container {
-    grid-template-columns: repeat(5, 1fr);
-    width: 100%;
     gap: 90px;
   }
   .press_logo_item {
@@ -711,39 +697,17 @@ footer {
   }
   .container2 {
     width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .nav_container {
-    max-width: 1440px;
-  }
-  .hero_img {
-    position: absolute;
-    top: calc(100% - 800px);
-    left: 680px;
-  }
-  /* press */
-  .press_logo_container {
-    grid-template-columns: repeat(5, 1fr);
-    width: 100%;
-    gap: 90px;
-  }
-  .press_logo_item {
-    width: 200px;
   }
   /* show */
+  .showcase .container2 {
+    margin: 0;
+  }
   .showcase_cards_container {
     overflow: visible;
+    padding-left: 80px;
   }
-
   /* footer upsell */
-  .footer_upsell_img {
-    left: 860px;
-  }
-  /* footer */
-  .footer_title_area {
-    width: 670px;
-    padding-right: 200px;
-    padding-bottom: 0;
+  .footer_upsell {
+    width: 1280px;
   }
 }
