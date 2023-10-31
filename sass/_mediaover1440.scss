@@ -1,0 +1,22 @@
+@media screen and (min-width: 1445px) {
+  .max-container {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container2 {
+    width: 1440px;
+  }
+  /* show */
+  .showcase .container2 {
+    margin: 0;
+  }
+  .showcase_cards_container {
+    overflow: visible;
+    padding-left: 80px;
+  }
+  /* footer upsell */
+  .footer_upsell {
+    width: 1280px;
+  }
+}

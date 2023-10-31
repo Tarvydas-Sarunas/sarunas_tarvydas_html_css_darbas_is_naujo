@@ -1,0 +1,19 @@
+.showcase {
+  padding-bottom: 92px;
+  overflow: hidden;
+}
+.show-titl {
+  padding-top: 0;
+}
+.showcase_text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  color: $Dark-2;
+  & a {
+    font-weight: 500;
+    text-decoration-line: underline;
+  }
+}
+
+// showcasse card

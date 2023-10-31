@@ -1,0 +1,33 @@
+.footer_upsell {
+  padding-top: 64px;
+  padding-bottom: 66px;
+  position: relative;
+  border-top: 2px solid $Light-2;
+  border-bottom: 2px solid $Light-2;
+  overflow: hidden;
+}
+.footer_upsell::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: $Dark-1;
+  opacity: 0.08;
+  position: absolute;
+  top: calc(100% - 300px);
+}
+
+.footer_upsell_img {
+  position: absolute;
+  top: calc(100% - 74%);
+  left: 250px;
+  overflow: hidden;
+}
+.footer_upsell_text_container {
+  width: 207px;
+  margin-right: 14px;
+}
+.foot_upsell_title {
+  font-size: 56px;
+  font-weight: 900;
+  padding: 24px 0;
+}

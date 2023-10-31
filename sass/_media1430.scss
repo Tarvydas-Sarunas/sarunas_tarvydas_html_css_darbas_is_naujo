@@ -1,0 +1,32 @@
+@media screen and (min-width: 1430px) {
+  .nav_container {
+    max-width: 1440px;
+  }
+  .hero_img {
+    position: absolute;
+    top: calc(100% - 800px);
+    left: 680px;
+  }
+  /* press */
+  .press_logo_container {
+    gap: 90px;
+  }
+  .press_logo_item {
+    width: 200px;
+  }
+  /* show */
+  .showcase_cards_container {
+    overflow: visible;
+  }
+
+  /* footer upsell */
+  .footer_upsell_img {
+    left: 860px;
+  }
+  /* footer */
+  .footer_title_area {
+    width: 670px;
+    padding-right: 200px;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,25 @@
+.press {
+  margin-top: 67px;
+  margin-bottom: 57px;
+}
+.press_logo_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px 75px;
+}
+.press_logo_item {
+  display: flex;
+  align-items: center;
+}
+.logo_title {
+  font-size: 31.02px;
+  font-weight: 400;
+  color: $Dark-4;
+  padding-left: 15px;
+}
+.disp900 {
+  display: none;
+}
+.disp1440 {
+  display: none;
+}

@@ -1,0 +1,126 @@
+@media screen and (min-width: 1200px) {
+  .menu {
+    gap: 28px;
+  }
+  .nav_container {
+    padding: 70px 80px;
+  }
+  /* container */
+  .container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  /* hero */
+  .hero {
+    padding-top: 175px;
+    padding-bottom: 200px;
+  }
+  .hero_img {
+    left: 530px;
+  }
+  .hero_text_container {
+    width: 550px;
+    padding-top: 130px;
+  }
+
+  .hero_title {
+    font-size: 96px;
+    padding-bottom: 32px;
+  }
+  .hero .btn {
+    margin-top: 41px;
+  }
+  /* upsell */
+  .upsell {
+    background-position: center;
+    margin: 0 78px;
+    border-radius: 16px;
+  }
+  .upsell .container {
+    padding-left: 64px;
+  }
+  .upsell .section_title {
+    padding-bottom: 24px;
+    padding-top: 154px;
+  }
+  .upsell_texte {
+    padding-bottom: 64px;
+  }
+
+  /* press */
+  .press {
+    margin: 126px 0;
+  }
+  .press_logo_container {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+  }
+  .disp1440 {
+    display: block;
+  }
+  /* show */
+  .showcase {
+    padding-bottom: 120px;
+  }
+  .show-titl {
+    padding-top: 0;
+    padding-bottom: 24px;
+  }
+  .container2 {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .showcase_cards_container {
+    margin-top: 56px;
+    padding-left: 0;
+  }
+
+  /* footer upsell */
+  .footer_upsell {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .footer_upsell .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer_upsell_text_container {
+    width: 565px;
+  }
+  .footer_upsell_img {
+    left: 735px;
+    top: calc(100% - 85%);
+  }
+  .footer_upsell::after {
+    display: none;
+  }
+  .footer_upsell .btn {
+    margin-bottom: 0;
+  }
+  /* footer */
+  footer {
+    margin-top: 120px;
+  }
+  .footer_container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer_links_title {
+    padding-top: 0;
+  }
+  .footer_title_area {
+    padding-right: 200px;
+    padding-bottom: 0;
+  }
+  .copyright_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 123px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 71px;
+  }
+  .copy_date {
+    display: block;
+  }
+}

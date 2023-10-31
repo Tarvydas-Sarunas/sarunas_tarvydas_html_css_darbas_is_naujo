@@ -1,0 +1,58 @@
+.showcase_cards_container {
+  margin-top: 40px;
+  padding-left: 35px;
+  display: flex;
+  gap: 40px;
+  overflow: scroll;
+  width: 100%;
+}
+
+.showcase_card {
+  width: 290px;
+}
+.show-card-img {
+  display: block;
+}
+.show_card_text_container {
+  width: 290px;
+  display: flex;
+  gap: 20px;
+  background-color: $Light-2;
+  padding: 24px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.price_container {
+  display: flex;
+  gap: 8px;
+}
+.card_text_left {
+  text-align: right;
+}
+.card_series {
+  color: $Orange;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.card_name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  padding: 12px 0;
+}
+.card_nr {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  color: $Dark-3;
+}
+.card_bids {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: $Dark-3;
+}

@@ -1,0 +1,38 @@
+.hero {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  overflow: hidden;
+  display: flex;
+}
+.hero_img {
+  position: absolute;
+  top: calc(100% - 570px);
+  left: 205px;
+}
+.hero_text_container {
+  width: 270px;
+  padding-top: 48px;
+}
+.hero_announcement_text {
+  color: $Pink;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+}
+.hero_title {
+  font-size: 48px;
+  font-weight: 900;
+  color: $Dark-1;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.hero-texte {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  color: $Dark-2;
+}
+.btn {
+  margin-top: 32px;
+}
